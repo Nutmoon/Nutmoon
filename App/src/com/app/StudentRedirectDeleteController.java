@@ -25,6 +25,7 @@ public class StudentRedirectDeleteController extends HttpServlet {
 			req.setAttribute("errormessage", "Unable to add student details.");
 			RequestDispatcher rd = req.getRequestDispatcher("common/error.jsp");
 			rd.forward(req, resp);
+//			System.out.println();
 		}
 	}
 }
