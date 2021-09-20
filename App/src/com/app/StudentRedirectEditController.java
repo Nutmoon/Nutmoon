@@ -21,5 +21,6 @@ public class StudentRedirectEditController extends HttpServlet {
 		req.setAttribute("student", student);
 		RequestDispatcher rd = req.getRequestDispatcher("/student-edit-details.jsp");
 		rd.forward(req, resp);
+//		System.out.println("trying git hub");
 	}
 }
