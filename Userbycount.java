@@ -33,10 +33,10 @@ public static void main(String[] args){
    }
    
    }
-   System.out.println("Letter : "+letter);
-   System.out.println("Number : "+num);
-   System.out.println("Space : "+space);
-   System.out.println("Other : "+other);
+ //  System.out.println("Letter : "+letter);
+ //  System.out.println("Number : "+num);
+ //  System.out.println("Space : "+space);
+ //  System.out.println("Other : "+other);
    
    
   }   
