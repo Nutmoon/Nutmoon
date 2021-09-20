@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+	<display-name>Student App</display-name>
+	<listener>
+		<listener-class>com.app.context.WebContextListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>username</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>niraj</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbname</param-name>
+		<param-value>app</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>student-list</servlet-name>
+		<servlet-class>com.app.StudentListController</servlet-class>
+		<init-param>
+			<param-name>test</param-name>
+			<param-value>xyz</param-value>
+		</init-param>
+		<init-param>
+			<param-name>abc</param-name>
+			<param-value>pqy</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>student-list</servlet-name>
+		<url-pattern>/student-list</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>student-add</servlet-name>
+		<servlet-class>com.app.StudentAddController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>student-add</servlet-name>
+		<url-pattern>/student-add</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>student-add-redirect</servlet-name>
+		<servlet-class>com.app.StudentRedirectAddController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>student-add-redirect</servlet-name>
+		<url-pattern>/student-add-redirect</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>student-edit-redirect</servlet-name>
+		<servlet-class>com.app.StudentRedirectEditController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>student-edit-redirect</servlet-name>
+		<url-pattern>/student-edit-redirect</url-pattern>
+	</servlet-mapping>
+	
+	<!-- <servlet> <servlet-name>student-delete</servlet-name> <servlet-class>com.app.dao.StudentDAO</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>student-delete</servlet-name> 
+		<url-pattern>/student-delete</url-pattern> </servlet-mapping> -->
+</web-app>
+
