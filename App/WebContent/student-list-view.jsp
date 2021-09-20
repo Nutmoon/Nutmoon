@@ -23,7 +23,7 @@
 		<tr>
 			<th>First Name</th>
 			<th>Last Name</th>
-				<th>Birth Date</th>
+			<th>Birth Date</th>
 			<th>Email</th>
 			<th>Phone</th>
 			<th>Address line 1</th>
@@ -34,7 +34,6 @@
 			<th>Course</th>
 			<th>Action</th>
 			<th>Save</th>
-			
 		</tr>
 		<%
 		for (int i = 0; i < students.size(); i++) {
