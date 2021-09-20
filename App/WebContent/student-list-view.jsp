@@ -33,6 +33,7 @@
 			<th>Country</th>
 			<th>Course</th>
 			<th>Action</th>
+			<th>Save</th>
 		</tr>
 		<%
 		for (int i = 0; i < students.size(); i++) {
