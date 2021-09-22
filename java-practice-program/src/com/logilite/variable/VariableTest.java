@@ -6,6 +6,7 @@ public class VariableTest {
 	int emp_Id;
 	String name;
 	String gender;
+	String post = "Fresher";
 	int age;
 	long phone_No;
 	int experience;
@@ -19,8 +20,9 @@ public class VariableTest {
 
 		if (senior) {
 			salary = salary + bonusSalary;
+			post = "Senior";
 		}
-		
+
 		System.out.println("\n\nEmployee Id : - " + emp_Id);
 		System.out.println("Employee Name :- " + name);
 		System.out.println("Employee Gender :- " + gender);
@@ -28,6 +30,7 @@ public class VariableTest {
 		System.out.println("Employee Contect No :- " + phone_No);
 		System.out.println("Employee Experience(year) :- " + experience);
 		System.out.println("Employee Salary :- " + salary);
+		System.out.println("Emplooyee Post :-" + post);
 		System.out.println("Next Employee ID :- " + next_Emp_Id);
 
 	}
@@ -54,14 +57,14 @@ public class VariableTest {
 		var_2.senior = true;
 		var_2.display();
 
-		var_2.emp_Id = 1003;
-		var_2.name = "paula nickolds";
-		var_2.gender = "female";
-		var_2.age = 48;
-		var_2.phone_No = 9236584963l;
-		var_2.experience = 12;
-		var_2.senior = true;
-		var_2.display();
+		var_3.emp_Id = 1003;
+		var_3.name = "paula nickolds";
+		var_3.gender = "female";
+		var_3.age = 48;
+		var_3.phone_No = 9236584963l;
+		var_3.experience = 12;
+		var_3.senior = true;
+		var_3.display();
 
 		System.out.println("\nHowmany Employees See in list :- " + VariableTest.countEmployee);
 
