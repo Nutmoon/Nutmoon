@@ -14,6 +14,17 @@ public class VariableTest {
 	double salary = 8000;
 	double bonusSalary = 5000;
 
+	/*
+	 *  Explicit casting(Larger to Smaller) 
+	 *  long y = 42;
+	 *  // int x = y;
+	 *   int x =(int) y; 
+	 *  
+	 *  Implicit cast (Samaller to Larger) 
+	 *  char Char = 'A';
+	 *   int Int = Char;
+	 */
+
 	public void display() {
 		int next_Emp_Id = emp_Id + 1;
 		countEmployee = countEmployee + 1;
