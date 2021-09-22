@@ -31,13 +31,13 @@ public class Variables {
 		s.update(s.name, s.id, s.gender);
 		s.print();
 
-		Stud s1 = new Stud();
-		s1.id = 2;
-		s1.name = "Jayesh";
-		s1.gender = "Male";
-
-		s1.update(s1.name, s1.id, s1.gender);
-		s1.print();
+		Stud s2 = new Stud();
+		s2.id = 2;
+		s2.name = "Jayesh";
+		s2.gender = "Male";
+        
+		s2.update(s2.name, s2.id, s2.gender);
+		s2.print();
 		
 		Stud s3 = new Stud();
 		s3.id = 3;
