@@ -39,13 +39,13 @@ public class Variables {
 		s1.update(s1.name, s1.id, s1.gender);
 		s1.print();
 		
-		Stud s2 = new Stud();
-		s1.id = 2;
-		s1.name = "Jayesh";
-		s1.gender = "Male";
+		Stud s3 = new Stud();
+		s3.id = 3;
+		s3.name = "Ankit";
+		s3.gender = "Male";
 
-		s1.update(s1.name, s1.id, s1.gender);
-		s1.print();
+		s3.update(s3.name, s3.id, s3.gender);
+		s3.print();
 		
 	}
 }
