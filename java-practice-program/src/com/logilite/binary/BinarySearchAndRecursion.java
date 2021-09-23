@@ -1,5 +1,5 @@
 
-package com.logilite.binarysearch_recursion;
+package com.logilite.binary;
 
 import java.io.InputStream;
 import java.util.Scanner;
