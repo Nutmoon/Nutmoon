@@ -1,4 +1,4 @@
-package com.logilite.arraywithreference;
+package com.logilite.arryreference;
 
 public class Instructor {
 	public long id;
