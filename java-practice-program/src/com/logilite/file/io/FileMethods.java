@@ -31,8 +31,7 @@ public class FileMethods {
 	}
 
 	public static void main(String[] args) {
-
-		// fileCopyWithBufferAndArray();
+		
 		fileMethodsDemo();
 
 	}
