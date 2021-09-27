@@ -58,7 +58,7 @@ public class ArrayList_testing {
 		// Print in reverse order
 
 		ListIterator<Integer> number = list2.listIterator(list2.size());
-		System.out.println("\nAfetr Iterator In reverse order...\n");
+		System.out.println("\n Afetr Iterator In reverse order...\n");
 		while (number.hasPrevious()) {
 			Integer str = number.previous();
 			System.out.println(str);
