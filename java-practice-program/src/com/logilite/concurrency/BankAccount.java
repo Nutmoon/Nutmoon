@@ -17,7 +17,7 @@ public class BankAccount implements Runnable {
 		}
 	}
 	//Withdraw Method but Not working properly because of Race Condition
-	private void makeWithdrawal(int amount) {
+	private synchronized void makeWithdrawal(int amount) {
 		if (balance >= amount) {
 			//Give Thread Name 
 			System.out.println(Thread.currentThread().getName() + " is about to withdraw ...");
