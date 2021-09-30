@@ -53,14 +53,12 @@ public class LegacyDateApi {
 		gameFinal.set(2021, Calendar.JULY, 16, 9, 00);
 		System.out.println("After? " + gameStartTime.after(gameFinal));
 		System.out.println("Before? " + gameStartTime.before(gameFinal));
-
-		// Time Zone Demo
-		System.out.println("\nTimeZones ... /n");
-		String[] timeZones = TimeZone.getAvailableIDs();
-
-		for (String timeZone : timeZones) {
-			System.out.println(timeZone);
-		}
-
+		System.out.println("-------------------------------Finish legacy--------------------------------\n\n\n");
+		/*
+		 * // Time Zone Demo System.out.println("\nTimeZones ... /n"); String[]
+		 * timeZones = TimeZone.getAvailableIDs();
+		 * 
+		 * for (String timeZone : timeZones) { System.out.println(timeZone); }
+		 */
 	}
 }

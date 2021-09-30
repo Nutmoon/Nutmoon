@@ -10,6 +10,8 @@ public class DateAndTimeDemo {
 	public static void main(String[] args) {
 		LegacyDateApi time = new LegacyDateApi();
 		time.testLegacyDateAPI();
+		DateAndTimeApi latest = new DateAndTimeApi();
+		latest.testDateTimeAPI();
 	}
 
 }
